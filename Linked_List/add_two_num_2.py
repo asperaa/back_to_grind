@@ -1,1 +1,0 @@
-"""We are the captains of our ships, and we stay till the end. we see our stories through."""
