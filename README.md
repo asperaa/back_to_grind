@@ -4,3 +4,6 @@
 
  &mdash; President Theodore Roosevelt <br/>
          Speech at the Sorbonne, Paris, April 23, 1910
+
+
+*"We are the captains of our ships, and we stay 'till the end. We see our stories through."*
