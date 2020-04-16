@@ -46,21 +46,3 @@ class LinkedList:
             curr_odd = next_odd
         curr_odd.next = head_even
         return head
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
