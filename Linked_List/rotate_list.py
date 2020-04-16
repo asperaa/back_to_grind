@@ -32,22 +32,22 @@ class LinkedList:
             mover = mover.next
         print()
     
-    def get_length(self, head):
+    def get_length_and_tail_end(self, head):
         length = 0
-        while head:
+        while head.next:
             head = head.next
             length += 1
-        return length
+        return (length + 1, head)
 
     def rotateRight(self, head, k):
         if not head:
             return None
-        length = self.get_length(head)
-        old_tail_end = head
-        while old_tail_end.next:
-            old_tail_end = old_tail_end.next
-        old_tail_end.next = head
+        length, old_tail_end = self.get_length_and_tail_end(head)
         k = k%length
+        if k == 0:
+            return head
+        # Form a circle.
+        old_tail_end.next = head
         new_tail_distance = length - k - 1
         new_tail = head
         while new_tail_distance:
