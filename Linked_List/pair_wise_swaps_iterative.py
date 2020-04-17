@@ -1,7 +1,7 @@
 """We are the captains of our ships, and we stay 'till the end. We see our stories through.
 """
 
-"""24. Swap Nodes in Pairs
+"""24. Swap Nodes in Pairs [Iterative]
 """
 
 class ListNode:
