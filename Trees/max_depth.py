@@ -18,7 +18,7 @@ class Solution:
             return 0
         l_height = 1 + self.max_depth_helper(root.left)
         r_height = 1 + self.max_depth_helper(root.right)
-        return 1 + max(l_height, r_height)
+        return max(l_height, r_height)
 
     def maxDepth(self, root):
         self.max_depth_helper(root)
