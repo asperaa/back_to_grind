@@ -1,7 +1,7 @@
 """We are the captains of our ships, and we stay 'till the end. We see our stories through.
 """
 
-"""235. Lowest Common Ancestor of a Binary Search Tree [Iterative]
+"""235. Lowest Common Ancestor of a Binary Search Tree [Iterative]. T - O(n) and S - O(1).
 """
 
 class TreeNode:
