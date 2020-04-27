@@ -12,6 +12,12 @@ class TreeNode:
         self.right = None
 
 class Solution:
+    
+    def findLeaves(self, root):
+        result = []
+        self.dfs(root, result)
+        root = None
+        return result  
 
     def dfs(self, root, result):
         if not root:
@@ -24,10 +30,3 @@ class Solution:
         result[curr_height].append(root.val)
         root.left = root.right = None
         return curr_height
-    
-    def findLeaves(self, root):
-        result = []
-        self.dfs(root, result)
-        root = None
-        return result  
-
