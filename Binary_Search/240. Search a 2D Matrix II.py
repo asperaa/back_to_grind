@@ -10,12 +10,16 @@ class Solution:
         if not matrix:
             return False
         m, n = len(matrix), len(matrix[0])
-        i, j = 0, n - 1
-        while i >= 0 and i < m and j >= 0 and j < n:
-            if matrix[i][j] == target:
+        left, right = 0, m * n - 1
+        while left <= right:
+            pivot_index = left + (right-left) // 2
+            pivot_element = matrix[pivot_index//n][pivot_index%n]
+            if pivot_element == target:
                 return True
-            elif matrix[i][j] > target:
-                j -= 1
-            elif matrix[i][j] < target:
-                i += 1
+            elif pivot_element > target:
+                right = pivot_index - 1
+            else:
+                left = pivot_index + 1
+
+
         return False
