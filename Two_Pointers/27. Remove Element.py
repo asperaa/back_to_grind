@@ -1,7 +1,7 @@
 """we are the captains of our ships, and we stay 'till the end. We see our stories through.
 """
 
-"""27. Remove Element
+"""27. Remove Element [Two Pointers]
 """
 
 class Solution:
