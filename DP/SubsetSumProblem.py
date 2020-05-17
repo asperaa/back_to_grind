@@ -24,4 +24,4 @@ def is_subset_sum(arr, s):
 
 if __name__ == "__main__":
     arr = [3, 34, 4, 12, 5, 2]
-    print(is_subset_sum(arr, 30))
+    print(is_subset_sum(arr, 9))
