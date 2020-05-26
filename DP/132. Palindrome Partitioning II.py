@@ -50,7 +50,6 @@ class Solution:
         return min_cuts
 
 
-
 if __name__ == "__main__":
     s = Solution()
     print(s.is_palindrome("AAB", 0, 2))
