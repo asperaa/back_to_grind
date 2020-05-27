@@ -1,4 +1,4 @@
-"""1155. Number of Dice Rolls With Target Sum
+"""1155. Number of Dice Rolls With Target Sum [Bottom Up]
 """
 
 class Solution:
