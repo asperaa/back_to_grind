@@ -1,6 +1,9 @@
 """We are the captains of our ships, and we stay 'till the end. We see our stories through.
 """
 
+"""674. Longest Continuous Increasing Subsequence
+"""
+
 class Solution:
 
     def findLengthOfLCIS(self, nums):
