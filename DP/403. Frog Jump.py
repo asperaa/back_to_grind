@@ -1,7 +1,7 @@
 """We are the captains of our ships, and we stay 'till the end. We see our stories through.
 """
 
-"""403. Frog Jump
+"""403. Frog Jump [Walked through fire]
 """
 
 class Solution:
