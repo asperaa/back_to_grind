@@ -1,6 +1,9 @@
 """We are the captains of our ships, and we stay 'till the end. We seeour stories through.
 """
 
+"""1039. Minimum Score Triangulation of Polygon
+"""
+
 class Solution:
 
     def minScoreTriangulation(self, nums):
