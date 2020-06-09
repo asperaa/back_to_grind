@@ -20,3 +20,4 @@ class Solution:
             self.helper(word, curr_word, curr_index + 1, count + 1) # Dont abreviate
             self.helper(word, curr_word + (str(count) if count > 0 else "") + word[curr_index], curr_index + 1, 0)
             
+            
