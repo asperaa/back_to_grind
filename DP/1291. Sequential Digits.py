@@ -19,3 +19,5 @@ class Solution:
             self.ans.append(num)
         if last_digit == 9:
             return
+        if num * 10 + last_digit + 1 <= self.high:
+            self.helper(num*10+last_digit+1, last_digit+1)
