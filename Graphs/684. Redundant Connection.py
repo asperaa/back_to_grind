@@ -12,7 +12,7 @@ class Solution:
         rank = [0] * (nodes + 1)
 
         def find(i):
-            while parent[i] != i:
+            if parent[i] != i:
                 parent[i] = find(parent[i])
             return parent[i]
         
