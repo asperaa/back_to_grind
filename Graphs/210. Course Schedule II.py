@@ -26,7 +26,6 @@ class Solution:
             self.curr_pos -= 1
             rec_stack[i] = False
 
-        
         for u, v in edges:
             graph[v].append(u)
         
