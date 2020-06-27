@@ -1,12 +1,12 @@
-"""We are the captains of our ships, and we stay 'till the end. We see our stories through.
+"""We are the captains of ur ships, and we stay 'till the end. We see our stories through.
 """
 
-"""207. Course Schedule
+"""210. Course Schedule II
 """
 
 class Solution:
     
-    def canFinish(self, n, edges):
+    def findOrder(self, n, edges):
         visited = [False] * n
         rec_stack = [False] * n
         graph = {i: [] for i in range(n)}
@@ -34,8 +34,8 @@ class Solution:
             if not visited[i]:
                 dfs(i)
         if self.is_cycle:
-            return False
+            return []
         for node in ordering:
             if node == -1:
-                return False
-        return True
+                return []
+        return ordering
