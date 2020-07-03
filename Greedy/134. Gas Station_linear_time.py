@@ -1,7 +1,7 @@
 """We are the captains of our ships, and we stay 'till the end. We see our stories through.
 """
 
-"""134. Gas Station
+"""134. Gas Station [T - O(n)]
 """
 
 class Solution:
