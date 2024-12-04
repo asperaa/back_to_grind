@@ -5,7 +5,7 @@ from heapq import heapify, heappop, heappush
 def top_k_frequent(nums, k):
     hash_map = {}
     for num in nums:
-        hash_map[num] = hash_map.get(num, 0) + 1
+        hash_map[num] = hash_map.get(num, 0) + 1 # hash_map[num] = hash_map.get(num, 0) + 1
     
     min_heap = []
     heapify(min_heap)
