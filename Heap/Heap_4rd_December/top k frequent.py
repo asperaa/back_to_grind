@@ -15,8 +15,9 @@ def top_k_frequent(nums, k):
         if len(min_heap) > k:
             heappop(min_heap)
     top_k = []
-    while len(min_heap) > 0:
-        top_k.append(heappop(min_heap))
+    # while len(min_heap) > 0:
+    #     top_k.append(heappop(min_heap)[1])
+    top_k = [num for freq, num in min_heap]
     return top_k
         
     
