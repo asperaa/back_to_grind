@@ -17,8 +17,8 @@ def return_ans(arr , k):
                 final_ans.append(0)
             else:
                 final_ans.append(temp_store[0])
-                if arr[i] < 0:
-                    temp_store.pop(0)
+                if arr[i] < 0:     
+                    temp_store.pop(0)   # pop from the list because we leaving behind -ve number from the original array
             j+=1
             i+=1
     return final_ans
